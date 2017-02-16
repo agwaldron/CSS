@@ -1,0 +1,54 @@
+body {
+    background-image: url("mariomushroom.png");
+    
+}
+
+table, th, td{
+    border: 1px solid black;
+    font-family: Georgia, serif;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th{
+    color: red;
+    font-size: 48;
+    font-weight: bold;
+    background-color: gray;
+}
+
+tr:nth-child(even){
+    background-color: lightgray;
+}
+
+tr:nth-child(odd){
+    background-color: white;
+}
+
+td{
+    color: darkblue;
+    font-size: 24;
+    text-align: center;
+}
+
+td:hover{
+    font-style: italic;
+}
+
+td:first-of-type{
+    text-decoration: underline;
+}
+
+a{
+    vertical-align: text-top;    
+}
+
+a:visited{
+    color: skyblue;    
+}
+
+img{
+    display: none;
+}
